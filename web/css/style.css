@@ -13,6 +13,21 @@
     text-transform: uppercase;
 }
 
+.dropdown-menu.dropdown-default.show {
+    background-color: #0f2453;
+}
+
+a.dropdown-item.waves-effect.waves-light {
+    color: white;
+}
+a.dropdown-item.waves-effect.waves-light:hover {
+    background-color: #344a79;
+}
+/*.dropdown-item:focus, .dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #344a79;
+}*/
 
 /*	Exam */
 /*-- banner-form--*/

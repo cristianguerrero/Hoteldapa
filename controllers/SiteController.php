@@ -96,4 +96,20 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+
+    /* Nuevas */
+
+    public function actionIndex2()
+    {
+        $this->layout="main_dos";
+        return $this->render('index2');
+    }
+
+    public function actionHabitacion1()
+    {
+        $this->layout="main_dos";
+        return $this->render('habitacion1');
+    }
+
 }
