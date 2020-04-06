@@ -8,7 +8,7 @@ $this->title = 'Hotel Dapa';
 
 <!--/main-header-->
   <!--/banner-section-->
-	<div id="demo-1" data-zs-src='["pagina/images/4.jpg", "pagina/images/2.jpg", "pagina/images/1.jpg","pagina/images/3.jpg"]' data-zs-overlay="dots">
+	<div id="demo-1" data-zs-src='["pagina/images/img/img7.jpg", "pagina/images/img/hotel3.jpg", "pagina/images/img/hotel1.jpg","pagina/images/img/hote2.jpg"]' data-zs-overlay="dots">
 		<div class="demo-inner-content">
 		<!--/header-w3l-->
 			<div class="header-w3-agileits" id="home">
@@ -86,7 +86,7 @@ $this->title = 'Hotel Dapa';
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="pagina/images/5.jpg" alt="service-img">
+											<img src="pagina/images/img/hab2.jpg" alt="service-img">
 										</div>
 										<h3>Habitación 1</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -98,7 +98,7 @@ $this->title = 'Hotel Dapa';
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="pagina/images/6.jpg" alt="service-img">
+											<img src="pagina/images/img/hab3.jpg" alt="service-img">
 										</div>
 										<h3>Habitación 2</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -110,7 +110,7 @@ $this->title = 'Hotel Dapa';
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="pagina/images/7.jpg" alt="service-img">
+											<img src="pagina/images/img/hab4.jpg" alt="service-img">
 										</div>
 										<h3>Habitación 3</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
@@ -122,7 +122,7 @@ $this->title = 'Hotel Dapa';
 								<div class="col-md-3 w3_agileits_services_grid hvr-overline-from-center">
 									<div class="w3_agileits_services_grid_agile">
 										<div class="w3_agileits_services_grid_1">
-											<img src="pagina/images/8.jpg" alt="service-img">
+											<img src="pagina/images/img/hab5.jpg" alt="service-img">
 										</div>
 										<h3>Habitación 4</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
