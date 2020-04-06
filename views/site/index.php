@@ -19,7 +19,7 @@ $this->title = 'Hotel Dapa';
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
       <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg"
+        <img class="d-block w-100" src="../web/img/img7.jpg"
           alt="First slide">
         <div class="mask rgba-black-light"></div>
       </div>
@@ -31,7 +31,7 @@ $this->title = 'Hotel Dapa';
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg"
+        <img class="d-block w-100" src="../web/img/img1.png"
           alt="Second slide">
         <div class="mask rgba-black-strong"></div>
       </div>
@@ -43,7 +43,7 @@ $this->title = 'Hotel Dapa';
     <div class="carousel-item">
       <!--Mask color-->
       <div class="view">
-        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg"
+        <img class="d-block w-100" src="../web/img/img2.png"
           alt="Third slide">
         <div class="mask rgba-black-slight"></div>
       </div>
@@ -87,7 +87,7 @@ $this->title = 'Hotel Dapa';
                 <ul class="cbp-ig-grid">
                     <li>
                         <div class="w3_grid_effect">
-                            <span class="cbp-ig-icon w3_road"></span>
+                            <span class="fas fa-bed"></span>
                             <h4 class="cbp-ig-title">DORMITORIOS PRINCIPALES
 </h4>
                             <span class="cbp-ig-category">AMANECER</span>
@@ -95,14 +95,14 @@ $this->title = 'Hotel Dapa';
                     </li>
                     <li>
                         <div class="w3_grid_effect">
-                            <span class="cbp-ig-icon w3_cube"></span>
+                            <span class="fas fa-binoculars"></span>
                             <h4 class="cbp-ig-title">BALCON CON VISTA AL MAR</h4>
                             <span class="cbp-ig-category">AMANECER</span>
                         </div>
                     </li>
                     <li>
                         <div class="w3_grid_effect">
-                            <span class="cbp-ig-icon w3_users"></span>
+                            <span class="fas fa-coffee"></span>
                             <h4 class="cbp-ig-title">GRAN CAFE
 </h4>
                             <span class="cbp-ig-category">AMANECER</span>
@@ -110,7 +110,7 @@ $this->title = 'Hotel Dapa';
                     </li>
                     <li>
                         <div class="w3_grid_effect">
-                            <span class="cbp-ig-icon w3_ticket"></span>
+                            <span class="fab fa-audible"></span>
                             <h4 class="cbp-ig-title">COBERTURA WIFI</h4>
                             <span class="cbp-ig-category">AMANECER
 </span>
@@ -126,13 +126,13 @@ $this->title = 'Hotel Dapa';
     <div class="about-wthree" id="about">
           <div class="container">
                    <div class="ab-w3l-spa">
-                            <h3 class="title-w3-agileits title-black-wthree">Acerca de nuestro SUN RISE
+                            <h3 class="title-w3-agileits title-black-wthree">Acerca de nuestro HOTEL ESPEJO
 </h3> 
                            <p class="about-para-w3ls"> Lorem Ipsum es simplemente un texto simulado de la industria de impresión y composición tipográfica. Laca tempient vestibulum blandit faucibus. Nunc imperdiet, diam nec rhoncus ullamcorper, nisl nulla suscipit ligula, en imperdiet urna
 </p>
-                           <img src="images/about.jpg" class="img-responsive" alt="Hair Salon">
+                           <img src="../web/img/img2.jpg" display="inline-block" width="100%" class="img-responsive" alt="Hair Salon">
                                         <div class="w3l-slider-img">
-                                            <img src="images/a1.jpg" class="img-responsive" alt="Hair Salon">
+                                            <img src="" class="img-responsive" alt="Hair Salon">
                                         </div>
                                        <div class="w3ls-info-about">
                                             <h4>Te encantarán todas las comodidades que ofrecemos
