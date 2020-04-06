@@ -73,27 +73,9 @@ AppAsset::register($this);
         ]) ?>
         <?= $content ?>
     </div>
-
-    <script type="text/javascript" src="../web/pagina/js/jquery-2.1.4.min.js"></script>
-  <!-- Dropdown-Menu-JavaScript -->
-      <script>
-        $(document).ready(function(){
-          $(".dropdown").hover(            
-            function() {
-              $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
-              $(this).toggleClass('open');        
-            }
-            function() {
-              $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
-              $(this).toggleClass('open');       
-            }
-          );
-        });
-      </script>
-    <!-- //Dropdown-Menu-JavaScript -->
 </div>
 
-<footer class="footer">
+<footer class="w3agile_footer_copy"> <!-- footer -->
     <div class="container">
         <p class="pull-left">&copy; My Company <?= date('Y') ?></p>
 

@@ -4155,3 +4155,7 @@ a.icon.gp {
 .boton_mas{
     margin-top: 15px;
 }
+
+#yii-debug-toolbar{
+    display: none !important;
+}
