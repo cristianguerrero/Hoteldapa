@@ -59,12 +59,19 @@ AppAsset::register($this);
   <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#">Inicio
+        <a class="nav-link" href="index.php?r=site%2Findex">Inicio
           <span class="sr-only">(current)</span>
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Features</a>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink-333" data-toggle="dropdown"
+          aria-haspopup="true" aria-expanded="false">Habitaciones
+        </a>
+        <div class="dropdown-menu dropdown-default" aria-labelledby="navbarDropdownMenuLink-333">
+          <a class="dropdown-item" href="index.php?r=site%2Fhabitacio1.php">Habitación 1</a>
+          <a class="dropdown-item" href="#">Habitación 2</a>
+          <a class="dropdown-item" href="#">Habitación 3</a>
+        </div>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">Pricing</a>

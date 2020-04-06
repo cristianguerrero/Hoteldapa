@@ -19,17 +19,17 @@ class AppAsset extends AssetBundle
     public $baseUrl = '@web';
     public $css = [
         // 'css/site.css',
-        'material/css/bootstrap.min.css',
-        'material/css/mdb.min.css',
+        //'material/css/bootstrap.min.css',
+        //'material/css/mdb.min.css',
 		'css/fullcalendar.css',
-        'css/style.css',
+        //'css/style.css',
     ];
     public $js = [
-		'js/classie.js',
-		'js/mlpushmenu.js',
-		'js/moment.min.js',
+		//'js/classie.js',
+		//'js/mlpushmenu.js',
+		//'js/moment.min.js',
 		'js/fullcalendar.min.js',
-        'js/slider.js',
+        //'js/slider.js',
     ];
     public $depends = [
         // 'yii\web\YiiAsset',
