@@ -58,8 +58,8 @@ AppAsset::register($this);
         </div>
         <div class="agileits-contact-info text-right">
           <ul>
-            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +090 480 088</li>
-            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@example.com">mail@example.com</a></li>
+            <li><i class="fa fa-volume-control-phone" aria-hidden="true"></i> +57 123456789</li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i> <a href="mailto:info@ejemplo.com">info@ejemplo.com</a></li>
           </ul>
         </div>
         <div class="clearfix"></div>
