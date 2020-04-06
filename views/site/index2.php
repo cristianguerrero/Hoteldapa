@@ -45,18 +45,18 @@ $this->title = 'Hotel Dapa';
 						</div>
 						<div class="clearfix"> </div>	
 					</nav>
-					<div class="w3ls_search">
+					<!-- <div class="w3ls_search">
 						<div class="cd-main-header">
 								<ul class="cd-header-buttons">
 									<li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
-								</ul> <!-- cd-header-buttons -->
+								</ul> cd-header-buttons
 						</div>
 						<div id="cd-search" class="cd-search">
 							<form action="#" method="post">
-								<input name="Search" type="search" placeholder="Search...">
+								<input name="Search" type="search" placeholder="Buscar...">
 							</form>
 						</div>
-					</div>
+					</div> -->
 				</div> 
 			
 		<!--//header-w3l-->
@@ -91,7 +91,7 @@ $this->title = 'Hotel Dapa';
 										<h3>Habitación 1</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<div class="boton_mas">
-											<a class="read" href="single.html">Ver más</a>
+											<a class="read" href="index.php?r=site%2Fhabitacion1">Ver más</a>
 								   		</div>
 									</div>
 								</div>
@@ -103,7 +103,7 @@ $this->title = 'Hotel Dapa';
 										<h3>Habitación 2</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<div class="boton_mas">
-											<a class="read" href="single.html">Ver más</a>
+											<a class="read" href="#">Ver más</a>
 								   		</div>
 									</div>
 								</div>
@@ -115,7 +115,7 @@ $this->title = 'Hotel Dapa';
 										<h3>Habitación 3</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<div class="boton_mas">
-											<a class="read" href="single.html">Ver más</a>
+											<a class="read" href="#">Ver más</a>
 								   		</div>
 									</div>
 								</div>
@@ -127,7 +127,7 @@ $this->title = 'Hotel Dapa';
 										<h3>Habitación 4</h3>
 										<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
 										<div class="boton_mas">
-											<a class="read" href="single.html">Ver más</a>
+											<a class="read" href="#">Ver más</a>
 								   		</div>
 									</div>
 								</div>
@@ -191,7 +191,8 @@ $this->title = 'Hotel Dapa';
 	<div class="about-bottom">
 		<div class="col-md-6 w3l_about_bottom_left">
 				  <div class="video-grid-single-page-agileits">
-														<div data-video="44fbHx7P-t8" id="video"> <img src="pagina/images/watch.jpg" alt="" class="img-responsive" /> </div>
+														<div id="video"> <img src="pagina/images/watch.jpg" alt="" class="img-responsive" /> </div>
+														<!-- data-video="44fbHx7P-t8" -->
 													</div>
 
 			<div class="w3l_about_bottom_left_video">
@@ -388,7 +389,7 @@ $this->title = 'Hotel Dapa';
 							<li>xxxxxxxxxxxxxxx</li>
 							<li>Cali, Colombia</li>
 							<li>Telephone: 123456789</li>
-							<li>Email: <a class="mail" href="mailto:mail@example.com">info@ejemplo.com</a></li>
+							<li>Email: <a class="mail" href="mailto:info@ejemplo.com">info@ejemplo.com</a></li>
 						</ul>
 					</address>
 				</div>
