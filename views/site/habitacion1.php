@@ -72,9 +72,107 @@ $this->title = 'Hotel Dapa';
 		</div>
 	</div>
 <!-- //breadcrumb -->
+<!-- sesion uno -->
+<div class="row">
+  <div class="col-xs-6 col-md-4">
+  	<div class="info_habitacion">
+  		<div id="texto_habitacion">
+  			<h1>Datos de Habitacion</h1><br><br>
+  			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempore ratione optio, porro autem nesciunt quo voluptate blanditiis praesentium, sint quia. Facere quasi aliquid est aut ea quidem, assumenda modi?</p><br>
+  			<!-- boton plegable -->
+  			<button data-toggle="collapse" data-target="#demo">Collapsible</button>
+				<div>
+					<div id="demo" class="collapse">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea libero eum, illo deserunt. Aut similique vel repudiandae nostrum ullam architecto molestias, praesentium earum distinctio ex quae consequuntur voluptate officiis qui!
+					</div><br>
+			<!--fin boton plegable -->
+					<span class="glyphicon glyphicon-envelope"></span>
+					<span class="glyphicon glyphicon-search"></span>
 
+				</div>
+		</div>
+	</div>
+  </div>
+  
+  	<div class="col-xs-12 col-sm-6 col-md-8">  	
+  		<!-- /Carrosul-->
+  		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  			<!-- Indicators -->
+  			<ol class="carousel-indicators">
+    			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    			<li data-target="#myCarousel" data-slide-to="1"></li>
+    			<li data-target="#myCarousel" data-slide-to="2"></li>
+  			</ol>
 
+  			<!-- Wrapper for slides -->
+  			<div class="carousel-inner">
+    			<div class="item active">
+      				<img src="pagina/images/img/hab2.jpg" alt="Los Angeles">
+    			</div>
 
+    			<div class="item">
+      				<img src="pagina/images/img/hab3.jpg" alt="Chicago">
+    			</div>
+
+    			<div class="item">
+      				<img src="pagina/images/img/hab3.jpg" alt="New York">
+    			</div>
+  			</div>
+
+  			<!-- Left and right controls -->
+  			<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    			<span class="glyphicon glyphicon-chevron-left"></span>
+    			<span class="sr-only">Previous</span>
+  			</a>
+  			<a class="right carousel-control" href="#myCarousel" data-slide="next">
+    			<span class="glyphicon glyphicon-chevron-right"></span>
+    			<span class="sr-only">Next</span>
+  			</a>
+		</div>
+		<!-- fin carrosul -->
+  	</div>
+</div>
+	<!-- fin sesion uno -->
+	<!-- sesion dos -->
+<div class="row">
+	<div>
+  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
+  			<div class="texto_sesion2">
+  				<h2>Reservas</h2><br>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
+  				<span class="glyphicon glyphicon-envelope"></span>
+  			</div>
+  		</div>
+  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
+  			<div class="texto_sesion2">
+  				<h2>Reservas</h2><br>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
+  				<span class="glyphicon glyphicon-search"></span>
+  			</div>
+  		</div>
+  <!-- <div class="clearfix visible-xs-block"></div> -->
+  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
+  			<div class="texto_sesion2">
+  				<h2>Reservas</h2><br>
+  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
+  				<span class="glyphicon glyphicon-envelope"></span>
+  			</div>
+  		</div>
+  	</div>
+</div>
+<!-- fin sesion dos -->
+<!-- sesion tres -->
+<div class="row">
+  <div class="col-xs-6 col-sm-4" id="img">
+  	 <img src="pagina/images/img/hab2.jpg" alt="" width="500" height="400">
+  </div>
+  <div class="col-xs-6 col-sm-4">
+  	<img src="pagina/images/img/hab3.jpg" alt="" width="500" height="400">
+  </div>
+  <div class="col-xs-6 col-sm-4">
+  	<img src="pagina/images/img/hab4.jpg" alt="" width="500" height="400">
+  </div>
+</div>
 
 
 <script type="text/javascript" src="../web/pagina/js/jquery-2.1.4.min.js"></script>
