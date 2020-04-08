@@ -113,4 +113,10 @@ class SiteController extends Controller
         return $this->render('habitacion1');
     }
 
+    public function actionCarrito()
+    {
+        $this->layout="main_dos";
+        return $this->render('carrito');
+    }
+
 }

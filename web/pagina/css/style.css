@@ -4159,3 +4159,57 @@ a.icon.gp {
 #yii-debug-toolbar{
     display: none !important;
 }
+
+.info_habitacion{
+    height: 500px;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+}
+/**.info_habitacion p,{
+    margin: 0;
+    padding: 0 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}**/
+.info_habitacion #texto_habitacion{
+    margin: 0;
+    padding: 0 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+#habitacion_sesion2{
+    height: 30em;
+    margin: 2rem auto;
+    position: relative;
+    text-align: center;
+}
+#habitacion_sesion2 .texto_sesion2{
+    margin: 0;
+    padding: 0 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+
+/*seccion tres*/
+
+/*.info_habitacion div div{
+    margin: 0;
+    padding: 0 1rem;
+    position: absolute;
+    top: 120%;
+    vertical-align: middle;
+}*/
+
+.caj{
+    height: 500px;
+    width: 500px;
+    background-color: red;
+    
+}
