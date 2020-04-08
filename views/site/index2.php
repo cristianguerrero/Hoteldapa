@@ -8,7 +8,7 @@ $this->title = 'Hotel Dapa';
 
 <!--/main-header-->
   <!--/banner-section-->
-	<div id="demo-1" data-zs-src='["pagina/images/img/img7.jpg", "pagina/images/img/hotel3.jpg", "pagina/images/img/hotel1.jpg","pagina/images/img/hote2.jpg"]' data-zs-overlay="dots">
+	<div id="demo-1" data-zs-src='["pagina/images/img/hote2.jpg", "pagina/images/img/hotel3.jpg", "pagina/images/img/hotel1.jpg","pagina/images/img/img7.jpg"]' data-zs-overlay="dots">
 		<div class="demo-inner-content">
 		<!--/header-w3l-->
 			<div class="header-w3-agileits" id="home">
@@ -247,14 +247,14 @@ $this->title = 'Hotel Dapa';
 				
 			  </div>
 			  <div class="panel panel-default">
-				<div class="panel-heading" role="tab" id="headingThree">
+				<div class="panel-heading" role="tab" id="headingFour">
 				  <h4 class="panel-title asd">
-					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+					<a class="pa_italic collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
 					  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span><i class="glyphicon glyphicon-minus" aria-hidden="true"></i>Descripción 4
 					</a>
 				  </h4>
 				</div>
-				<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+				<div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
 				   <div class="panel-body panel_text">
 					Lorem Amet quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia.
 				  </div>
@@ -331,12 +331,10 @@ $this->title = 'Hotel Dapa';
 							<label><i class="fa fa-home" aria-hidden="true"></i> Escoge la habiación:</label>
 							<select class="form-control">
 								<option></option>
-								<option>Standard Double Room</option>
-								<option>Standard Family Room</option>
-								<option>Garden Family Room</option>
-								<option>Deluxe Double Room</option>
-								<option>Executive Junior Suite</option>
-								<option>Maisonette</option>
+								<option>Habitación 1</option>
+								<option>Habitación 2</option>
+								<option>Habitación 3</option>
+								<option>Habitación 4</option>
 							</select>
 					</div>
 					<div class="clearfix"> </div>
