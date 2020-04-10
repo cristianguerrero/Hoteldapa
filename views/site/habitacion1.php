@@ -73,7 +73,7 @@ $this->title = 'Hotel Dapa';
 	</div>
 <!-- //breadcrumb -->
 <!-- sesion uno -->
-<div class="row">
+<div class="row" id="row1-habitacion">
   <div class="col-xs-6 col-md-4">
   	<div class="info_habitacion">
   		<div id="texto_habitacion">
@@ -107,15 +107,15 @@ $this->title = 'Hotel Dapa';
   			<!-- Wrapper for slides -->
   			<div class="carousel-inner">
     			<div class="item active">
-      				<img src="pagina/images/img/hab2.jpg" alt="Los Angeles">
+      				<img src="pagina/images/img/banner-habitacion.jpg" alt="Los Angeles">
     			</div>
 
     			<div class="item">
-      				<img src="pagina/images/img/hab3.jpg" alt="Chicago">
+      				<img src="pagina/images/img/banner-habitacion1.jpg" alt="Chicago">
     			</div>
 
     			<div class="item">
-      				<img src="pagina/images/img/hab3.jpg" alt="New York">
+      				<img src="pagina/images/img/banner-habitacion2.jpg" alt="New York">
     			</div>
   			</div>
 
@@ -133,44 +133,17 @@ $this->title = 'Hotel Dapa';
   	</div>
 </div>
 	<!-- fin sesion uno -->
-	<!-- sesion dos -->
-<div class="row">
-	<div>
-  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
-  			<div class="texto_sesion2">
-  				<h2>Reservas</h2><br>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
-  				<span class="glyphicon glyphicon-envelope"></span>
-  			</div>
-  		</div>
-  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
-  			<div class="texto_sesion2">
-  				<h2>Reservas</h2><br>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
-  				<span class="glyphicon glyphicon-search"></span>
-  			</div>
-  		</div>
-  <!-- <div class="clearfix visible-xs-block"></div> -->
-  		<div class="col-xs-6 col-sm-4" id="habitacion_sesion2">
-  			<div class="texto_sesion2">
-  				<h2>Reservas</h2><br>
-  				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, quia? Incidunt quisquam odit excepturi necessitatibus, nemo dolore in eaque officia, cumque delectus doloremque non qui voluptate consequatur. Cupiditate quasi, consequuntur.</p><br>
-  				<span class="glyphicon glyphicon-envelope"></span>
-  			</div>
-  		</div>
-  	</div>
-</div>
-<!-- fin sesion dos -->
+	
 <!-- sesion tres -->
 <div class="row">
   <div class="col-xs-6 col-sm-4" id="img">
-  	 <img src="pagina/images/img/hab2.jpg" alt="" width="500" height="400">
+  	 <img src="pagina/images/img/hab2.jpg" alt="" width="400" height="400">
   </div>
   <div class="col-xs-6 col-sm-4">
-  	<img src="pagina/images/img/hab3.jpg" alt="" width="500" height="400">
+  	<img src="pagina/images/img/hab3.jpg" alt="" width="400" height="400">
   </div>
   <div class="col-xs-6 col-sm-4">
-  	<img src="pagina/images/img/hab4.jpg" alt="" width="500" height="400">
+  	<img src="pagina/images/img/hab4.jpg" alt="" width="400" height="400">
   </div>
 </div>
 

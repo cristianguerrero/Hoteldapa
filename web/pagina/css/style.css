@@ -4159,21 +4159,15 @@ a.icon.gp {
 #yii-debug-toolbar{
     display: none !important;
 }
-
+#row1-habitacion{
+    background-color: #181818;
+}
 .info_habitacion{
-    height: 500px;
+    height: 450px;
     margin: 2rem auto;
     position: relative;
     text-align: center;
 }
-/**.info_habitacion p,{
-    margin: 0;
-    padding: 0 1rem;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    vertical-align: middle;
-}**/
 .info_habitacion #texto_habitacion{
     margin: 0;
     padding: 0 1rem;
@@ -4182,20 +4176,19 @@ a.icon.gp {
     transform: translateY(-50%);
     vertical-align: middle;
 }
+#texto_habitacion h1{
+    color: #ff401b;
+}
+#texto_habitacion p{
+    color: white;
+}
+
+
 #habitacion_sesion2{
-    height: 30em;
-    margin: 2rem auto;
-    position: relative;
-    text-align: center;
+  text-align: center;
+
 }
-#habitacion_sesion2 .texto_sesion2{
-    margin: 0;
-    padding: 0 1rem;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    vertical-align: middle;
-}
+
 
 /*seccion tres*/
 
@@ -4207,9 +4200,53 @@ a.icon.gp {
     vertical-align: middle;
 }*/
 
-.caj{
+.caja2 {
+  width: 400px;
+  height: 500px;
+  left: 70%;
+  margin-top: 5px;
+  z-index: 1000;
+  position: fixed;
+  top: 0px;
+  background: #eee;
+}
+
+@media screen and (max-height: 450px) {
+  .caja2 {padding-top: 15px;}
+  .caja2 a {font-size: 18px;}
+}
+.caja1{
+    width: 400px;
     height: 500px;
-    width: 500px;
+    float: right;
+    background: #eee;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+@media screen and (max-height: 450px) {
+  .caja1 {padding-top: 15px;}
+  .caja1 a {font-size: 18px;}
+}
+
+#info-caja {
+    height: 300px;
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.prue{
+    height: 500px;
+    width: 69%;
     background-color: red;
-    
+    margin-top: 5px;
+    margin-left: 5px;
+
+}
+
+.img-producto{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    margin:10px;
+    text-align: center;
 }
