@@ -75,15 +75,60 @@ $this->title = 'Hotel Dapa';
 	</div>
 <!-- //breadcrumb -->
 
-
-<div class="caj">
-	<h1>hola</h1>
+<div class="caja1">
+	<div id="info-caja">
+		<div id="info-caja2"><h1>Hola mundo</h1></div>
+	</div>
+</div>
+<div>
+<div class="prue">
+	<div class="titulo-producto">
+		<h2>Nombre Producto</h2>
+	</div>
+	<div class="row">
+		 <div class="col-xs-6">
+		 	<div class="img-producto">
+		 		imagen
+		 	</div>
+		 </div>
+  		<div class="col-xs-6">
+  			<div class="texto-producto">
+  				
+		 	</div>
+  		</div>
+	</div>
+</div>
+<div class="prue"></div>
+<div class="prue"></div>
 </div>
 
 
 
 
+
 <script type="text/javascript" src="../web/pagina/js/jquery-2.1.4.min.js"></script>
+
+	<!-- caja flexible -->
+		<script>
+			$(document).ready(function(){
+				var altura = $('.caja1').offset().top;
+				
+				$(window).on('scroll', function(){
+					if ( $(window).scrollTop() > altura ){
+						$('.caja1').addClass('caja2');
+					} else {
+						$('.caja1').removeClass('caja2');
+					}
+				});
+			});
+
+
+		</script>
+
+
+	<!-- fin caja -->
+
+
 	<!-- Dropdown-Menu-JavaScript -->
 			<script>
 				$(document).ready(function(){
