@@ -4161,14 +4161,15 @@ a.icon.gp {
 }
 #row1-habitacion{
     background-color: #181818;
+
 }
-.info_habitacion{
-    height: 450px;
+#info_habitacion{
+    height: 100%;
     margin: 2rem auto;
     position: relative;
     text-align: center;
 }
-.info_habitacion #texto_habitacion{
+#info_habitacion #texto_habitacion{
     margin: 0;
     padding: 0 1rem;
     position: absolute;
@@ -4188,7 +4189,9 @@ a.icon.gp {
   text-align: center;
 
 }
-
+.texto_sesion2{
+    margin: 20px;
+}
 
 /*seccion tres*/
 
@@ -4200,10 +4203,11 @@ a.icon.gp {
     vertical-align: middle;
 }*/
 
+/*css carrito*/
+    /*caja flexible*/
 .caja2 {
-  width: 400px;
-  height: 500px;
-  left: 70%;
+  width: 390px;
+  left: 70.7%;
   margin-top: 5px;
   z-index: 1000;
   position: fixed;
@@ -4216,37 +4220,45 @@ a.icon.gp {
   .caja2 a {font-size: 18px;}
 }
 .caja1{
-    width: 400px;
-    height: 500px;
+    width: 390px;
     float: right;
     background: #eee;
     margin-top: 5px;
     margin-right: 5px;
 }
-@media screen and (max-height: 450px) {
-  .caja1 {padding-top: 15px;}
-  .caja1 a {font-size: 18px;}
-}
 
 #info-caja {
-    height: 300px;
     margin: 2rem auto;
     text-align: center;
 }
-
+    /*fin caja flexible*/
 .prue{
-    height: 500px;
     width: 69%;
-    background-color: red;
+    background-color:#181818;
     margin-top: 5px;
     margin-left: 5px;
 
 }
 
-.img-producto{
-    height: 400px;
-    width: 400px;
-    background-color: white;
-    margin:10px;
+#texto-producto{
+    height: 200px;
+    margin: 1rem auto;
+    margin-top: 10%;
+    position: relative;
     text-align: center;
 }
+.texto-producto1 h2{
+    color: #ff401b;
+}
+.texto-producto1 {
+    color: white;
+}
+#texto-producto .texto-producto1{
+    margin: 0;
+    padding: 0 1rem;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    vertical-align: middle;
+}
+/*fin css carrito*/
