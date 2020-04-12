@@ -73,17 +73,28 @@ $this->title = 'Hotel Dapa';
 	</div>
 <!-- //breadcrumb -->
 <!-- sesion uno -->
+
 <div class="row" id="row1-habitacion">
-  <div class="col-xs-6 col-md-4">
-  	<div class="info_habitacion">
+  <div class="col-xs-6 col-md-4" id="info_habitacion">
   		<div id="texto_habitacion">
-  			<h1>Datos de Habitacion</h1><br><br>
+  			<h1>Datos de Habitacion</h1><br>
   			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis tempore ratione optio, porro autem nesciunt quo voluptate blanditiis praesentium, sint quia. Facere quasi aliquid est aut ea quidem, assumenda modi?</p><br>
   			<!-- boton plegable -->
   			<button data-toggle="collapse" data-target="#demo">Collapsible</button>
 				<div>
 					<div id="demo" class="collapse">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea libero eum, illo deserunt. Aut similique vel repudiandae nostrum ullam architecto molestias, praesentium earum distinctio ex quae consequuntur voluptate officiis qui!
+					<table class="table table-condensed">
+			      	 <tr>
+			      	 	<th>Email</th>
+				        <td>John</td>
+				        <td>Amplia</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>Mary</td>
+				        <td>Moe</td>
+				      </tr>
+				</table>
 					</div><br>
 			<!--fin boton plegable -->
 					<span class="glyphicon glyphicon-envelope"></span>
@@ -91,7 +102,6 @@ $this->title = 'Hotel Dapa';
 
 				</div>
 		</div>
-	</div>
   </div>
   
   	<div class="col-xs-12 col-sm-6 col-md-8">  	
@@ -132,20 +142,14 @@ $this->title = 'Hotel Dapa';
 		<!-- fin carrosul -->
   	</div>
 </div>
-	<!-- fin sesion uno -->
-	
+
+<!-- fin sesion uno -->
+<!-- sesion dos -->
+
+
+
+<!-- fin sesion dos -->
 <!-- sesion tres -->
-<div class="row">
-  <div class="col-xs-6 col-sm-4" id="img">
-  	 <img src="pagina/images/img/hab2.jpg" alt="" width="400" height="400">
-  </div>
-  <div class="col-xs-6 col-sm-4">
-  	<img src="pagina/images/img/hab3.jpg" alt="" width="400" height="400">
-  </div>
-  <div class="col-xs-6 col-sm-4">
-  	<img src="pagina/images/img/hab4.jpg" alt="" width="400" height="400">
-  </div>
-</div>
 
 
 <script type="text/javascript" src="../web/pagina/js/jquery-2.1.4.min.js"></script>

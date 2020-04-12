@@ -77,30 +77,175 @@ $this->title = 'Hotel Dapa';
 
 <div class="caja1">
 	<div id="info-caja">
-		<div id="info-caja2"><h1>Hola mundo</h1></div>
+		<div id="info-caja2">
+			<h2>Detalles</h2><br>
+		</div>
+		<div>
+			<table class="table table-striped">
+				<tr>
+				    <th>Nombre:</th>
+					<td>Cristian</td>
+					<td>Perro</td>
+					<td>Sucia</td>
+				</tr>
+				<tr>
+				    <th>Tiempo:</th>
+					<td></td>
+					<td>5</td>
+					<td>Dias</td>
+				</tr>
+				<tr>
+				    <th>Persona(s):</th>
+					<td></td>
+					<td>2</td>
+					<td>Adultos</td>
+				</tr>
+				<tr>
+				    <th>Otro(s):</th>
+					<td></td>
+					<td>1</td>
+					<td>Niño</td>
+				</tr>
+				<tr>
+				    <th>Precio:</th>
+					<td></td>
+					<td>$</td>
+					<td>300.00</td>
+				</tr>
+			</table>
+		</div>
+		<div>
+			<button type="button" class="btn btn-success">comprar</button>
+		</div>
 	</div>
 </div>
-<div>
 <div class="prue">
-	<div class="titulo-producto">
-		<h2>Nombre Producto</h2>
-	</div>
+	<!-- info del producto -->
 	<div class="row">
 		 <div class="col-xs-6">
 		 	<div class="img-producto">
-		 		imagen
+		 		<img src="pagina/images/img/prod-hab.jpg" alt="">
 		 	</div>
 		 </div>
-  		<div class="col-xs-6">
-  			<div class="texto-producto">
-  				
+  		<div class="col-xs-6" id="texto-producto">
+  			<div class="texto-producto1">
+  				<h2>habitacion 1</h2><br>
+				  <table class="table table-hover">
+			      	 <tr>
+			      	 	<th>Email</th>
+				        <td>John</td>
+				        <td>Doe</td>
+				        <td>john@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>Mary</td>
+				        <td>Moe</td>
+				        <td>mary@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				</table>
 		 	</div>
   		</div>
 	</div>
+	<!-- fin info del producto -->
 </div>
-<div class="prue"></div>
-<div class="prue"></div>
+<div class="prue">
+	<!-- info del producto -->
+	<div class="row">
+		 <div class="col-xs-6">
+		 	<div class="img-producto">
+		 		<img src="pagina/images/img/prod-hab1.jpg" alt="">
+		 	</div>
+		 </div>
+  		<div class="col-xs-6" id="texto-producto">
+  			<div class="texto-producto1">
+  				<h2>habitacion 2</h2><br>
+				  <table class="table table-hover">
+			      	 <tr>
+			      	 	<th>Email</th>
+				        <td>John</td>
+				        <td>Doe</td>
+				        <td>john@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>Mary</td>
+				        <td>Moe</td>
+				        <td>mary@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				</table>
+		 	</div>
+  		</div>
+	</div>
+	<!-- fin info del producto -->
 </div>
+<div class="prue">
+	<!-- info del producto -->
+	<div class="row">
+		 <div class="col-xs-6">
+		 	<div class="img-producto">
+		 		<img src="pagina/images/img/prod-hab3.jpg" alt="">
+		 	</div>
+		 </div>
+  		<div class="col-xs-6" id="texto-producto">
+  			<div class="texto-producto1">
+  				<h2>habitacion 3</h2><br>
+				  <table class="table table-hover">
+			      	 <tr>
+			      	 	<th>Email</th>
+				        <td>John</td>
+				        <td>Doe</td>
+				        <td>john@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>Mary</td>
+				        <td>Moe</td>
+				        <td>mary@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				      <tr>
+				      	<th>Email</th>
+				        <td>July</td>
+				        <td>Dooley</td>
+				        <td>july@example.com</td>
+				      </tr>
+				</table>
+		 	</div>
+  		</div>
+	</div>
+	<!-- fin info del producto -->
+</div>
+
 
 
 
