@@ -1,0 +1,63 @@
+create or replace PROCEDURE         SP_HOTELDAPA_REGISTRAR_RESERVA
+ -- =============================================      
+ -- Author:  CRISTIAN GUERRERO
+ -- =============================================
+(
+    IN_HAB_COD_RESERVA IN INVENTARIO_HABITACIONES.INV_HAB_COD%TYPE,
+    IN_DESDE_RESERVA IN VARCHAR2,
+    IN_HASTA_RESERVA IN VARCHAR2,
+    IN_ADULTOS_RESERVA IN INVENTARIO_HABITACIONES.INV_HAB_ADULTOS%TYPE,
+    IN_NINOS_RESERVA IN INVENTARIO_HABITACIONES.INV_HAB_NINOS%TYPE,
+    OUT_CODIGO_MENSAJE OUT NUMBER                   -- CODIGO DE MENSAJE    
+)
+AS
+    V_ESTADO VARCHAR(10);
+    V_NUEVO_ESTADO VARCHAR(10);
+    V_INV_HAB_COD NUMBER;
+BEGIN
+    -- =============================================
+    -- O: CLIENTE YA SE ENCUENTRA REGISTRADO EN LA BASE DE DATOS 
+    -- 1: REGISTRO COMPLETADO
+    -- 2: REGISTRO ERRONEO
+
+    -- =============================================
+    -- CONSULTA SI YA EXISTE UN REGISTRO (OCUPADA) CON EL CODIGO INGRESADO 
+    SELECT INV_HAB_ESTADO, INV_HAB_COD  --COUNT(*)
+    INTO V_ESTADO, V_INV_HAB_COD
+    FROM INVENTARIO_HABITACIONES
+    WHERE TRIM(INV_HAB_COD) = TRIM(IN_HAB_COD_RESERVA);
+
+    -- SI HAY UN REGISTRO (OCUPADA) 
+    IF(V_ESTADO = 'Ocupado') THEN 
+        BEGIN
+            -- SE INDICA QUE LA HABITACION ESTA OCUPADA 
+            OUT_CODIGO_MENSAJE := 0;
+        END;
+    ELSE
+        BEGIN
+            UPDATE INVENTARIO_HABITACIONES
+            SET INV_HAB_ESTADO = 'Ocupado',
+                INV_HAB_DOCREQ = 'PD',
+                INV_HAB_USUREQ = 'NOSE',
+                INV_HAB_DESDE = TO_DATE(IN_DESDE_RESERVA,'DD/MM/YYYY'),
+                INV_HAB_HASTA = TO_DATE(IN_HASTA_RESERVA,'DD/MM/YYYY'),
+                INV_HAB_ADULTOS = IN_ADULTOS_RESERVA,
+                INV_HAB_NINOS = IN_NINOS_RESERVA,
+                INV_HAB_DIAS = '1',
+                INV_HAB_TOTAL = '300000'
+            WHERE INV_HAB_COD = IN_HAB_COD_RESERVA;
+
+            SELECT INV_HAB_ESTADO, INV_HAB_COD  --COUNT(*)
+            INTO V_NUEVO_ESTADO, V_INV_HAB_COD
+            FROM INVENTARIO_HABITACIONES
+            WHERE TRIM(INV_HAB_COD) = TRIM(IN_HAB_COD_RESERVA);
+
+            IF(V_NUEVO_ESTADO = 'Ocupado') THEN 
+                -- INSERCION COMPLETADA
+                OUT_CODIGO_MENSAJE := 1;
+            ELSE 
+                OUT_CODIGO_MENSAJE := 2;
+            END IF;
+        END;
+    END IF; 
+END;

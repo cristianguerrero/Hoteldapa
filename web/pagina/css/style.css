@@ -4150,31 +4150,45 @@ a.icon.gp {
 
 
 
-/*  */
+/* General */
 
 .boton_mas{
     margin-top: 15px;
 }
-
 #yii-debug-toolbar{
     display: none !important;
 }
-#row1-habitacion{
-    background-color: #181818;
 
+
+/* Habitacion */
+
+.body_h1{
+    background-color: #181818;
+}
+.mgn0{
+    margin-right: 0;
+    margin-left: 0;
+}
+.pdn_tb10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.h1_seccion1{
+    background-color: #181818;
 }
 #info_habitacion{
     height: 100%;
-    margin: 2rem auto;
+    margin: 4rem auto;
     position: relative;
     text-align: center;
+    padding: 0;
 }
 #info_habitacion #texto_habitacion{
     margin: 0;
     padding: 0 1rem;
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(0%);
     vertical-align: middle;
 }
 #texto_habitacion h1{
@@ -4184,10 +4198,52 @@ a.icon.gp {
     color: white;
 }
 
+.seccion_reserva{
+    background-color: #181818;
+    padding: 25px;
+}
+.cuadro_reserva{
+    background: #00acee;
+    padding: 0px 40px;
+}
+.cuadro_reserva h2{
+    padding: 15px 0px;
+}
+.cuadro_reserva .table>tbody>tr>th, 
+.cuadro_reserva .table>tbody>tr>td{
+    color: #000;
+    text-align: center;
+}
+.cuadro_reserva label{
+    display: block;
+}
+.boton_reserva{
+    text-align: center;
+    padding: 20px;
+}
+.boton_reserva input, 
+.boton_reserva a {
+    text-transform: capitalize;
+    background: #ff401b;
+    color: #FFFFFF;
+    padding: .8em 2em;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    /*width: 100%;*/
+    font-weight: 600;
+    /*margin-top: 2em;*/
+    -webkit-appearance: none;
+    cursor: pointer;
+}
 
 #habitacion_sesion2{
   text-align: center;
-
 }
 .texto_sesion2{
     margin: 20px;
@@ -4202,6 +4258,7 @@ a.icon.gp {
     top: 120%;
     vertical-align: middle;
 }*/
+
 
 /*css carrito*/
     /*caja flexible*/

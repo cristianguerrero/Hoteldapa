@@ -27,10 +27,7 @@ AppAsset::register($this);
     <link rel="stylesheet" href="../web/pagina/css/flexslider.css" type="text/css" media="screen" property="" />
     <link rel="stylesheet" type="text/css" href="../web/pagina/css/zoomslider.css" />
     <link rel="stylesheet" type="text/css" href="../web/pagina/css/style.css" />
-    <link href="../web/pagina/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="../web/pagina/css/sweetalert2.min.css">
-
-    <script type="text/javascript" src="../..//web/pagina/js/sweetalert2.min.js"></script>
+    <link href="../web/pagina/css/font-awesome.css" rel="stylesheet"> 
     <script type="text/javascript" src="../web/pagina/js/modernizr-2.6.2.min.js"></script>
     <!--/web-fonts-->
     <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600" rel="stylesheet">
@@ -72,60 +69,69 @@ AppAsset::register($this);
 
   <!--/main-header-->
   <!--/banner-section-->
-  <div id="demo-1" class="banner-inner">
+  <div id="demo-1" data-zs-src='["pagina/images/img/hote2.jpg", "pagina/images/img/hotel3.jpg", "pagina/images/img/hotel1.jpg","pagina/images/img/img7.jpg"]' data-zs-overlay="dots">
+    <div class="demo-inner-content">
     <!--/header-w3l-->
-         <div class="header-w3-agileits" id="home">
-           <div class="inner-header-agile"> 
-                <nav class="navbar navbar-default">
-                  <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                      <span class="sr-only">Toggle navigation</span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                      <span class="icon-bar"></span>
-                    </button>
-                      <h1><a  href="index.php?r=site%2Findex"><span>H</span>otel <p class="s-log">Espejo</p></a>
-                     
-                    </h1>
-                  </div>
-                  <!-- navbar-header -->
-                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                    
-                    <ul class="nav navbar-nav">
-                      <li class=""><a href="index.php?r=site%2Findex">Inicio</a></li>
-                      <li class="dropdown">
-                        <a href="" class="dropdown-toggle hvr-bounce-to-bottom" data-hover="Pages" data-toggle="dropdown" aria-expanded="false">Habitaciones <b class="caret"></b></a>
-                         <ul class="dropdown-menu">
-                          <li>
-                            <a href="index.php?r=site%2Fhabitacion1">Habitación 1</a>
-                          </li>
-                        </ul>
-                      </li>
-                      <li><a href="#">Galeria</a></li>
-                      <li><a href="#">Contacto</a></li>
-                    </ul>
+      <div class="header-w3-agileits" id="home">
+          <div class="inner-header-agile">  
+          <nav class="navbar navbar-default">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <h1><a  href="index.php?r=site%2Findex"><span>H</span>otel <p class="s-log">Espejo</p></a>
+               
+              </h1>
+            </div>
+            <!-- navbar-header -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.php?r=site%2Findex">Inicio</a></li>
+                <li class="dropdown">
+                  <a href="" class="dropdown-toggle hvr-bounce-to-bottom" data-hover="Pages" data-toggle="dropdown" aria-expanded="false">Habitaciones <b class="caret"></b></a>
+                   <ul class="dropdown-menu">
+                    <li>
+                      <a href="index.php?r=site%2Fhabitacion1">Habitación 1</a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#">Galeria</a></li>
+                <li><a href="#">Contacto</a></li>
+              </ul>
 
-                  </div>
-                  <div class="clearfix"> </div> 
-                </nav>
-                  <!-- <div class="w3ls_search">
-                    <div class="cd-main-header">
-                      <ul class="cd-header-buttons">
-                        <li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
-                      </ul> cd-header-buttons
-                    </div>
-                    <div id="cd-search" class="cd-search">
-                      <form action="#" method="post">
-                        <input name="Search" type="search" placeholder="Buscar...">
-                      </form>
-                    </div>
-                  </div> -->
-              </div> 
-
+            </div>
+            <div class="clearfix"> </div> 
+          </nav>
+          <!-- <div class="w3ls_search">
+            <div class="cd-main-header">
+                <ul class="cd-header-buttons">
+                  <li><a class="cd-search-trigger" href="#cd-search"> <span></span></a></li>
+                </ul> cd-header-buttons
+            </div>
+            <div id="cd-search" class="cd-search">
+              <form action="#" method="post">
+                <input name="Search" type="search" placeholder="Buscar...">
+              </form>
+            </div>
+          </div> -->
+        </div> 
       
     <!--//header-w3l-->
+      <!--/banner-info-->
+         <div class="baner-info">   
+            <h3>Bien<span>venido </span>a   <span>Hotel </span> Espejo</h3>
+          <h4>Disfruta tu estadia!</h4>
+          <!-- <p>Disfrute su estadia!</p> -->
+         </div>
+      <!--/banner-ingo-->
+      
     </div>
-     </div>
+       </div>
+    </div>
   <!--/banner-section-->
  <!--//main-header-->
 
