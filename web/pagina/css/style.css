@@ -4318,4 +4318,9 @@ a.icon.gp {
     transform: translateY(-50%);
     vertical-align: middle;
 }
+.animacion{
+    background-image: url(../pagina/images/gif-cargando-4.gif) !important;
+    margin: 5px;
+    display: none;
+}
 /*fin css carrito*/
