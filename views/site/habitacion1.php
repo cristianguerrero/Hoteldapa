@@ -29,6 +29,9 @@
   				<!-- boton plegable -->
   				<div class="boton_reserva">
   					<a  id="reservar_boton">Reservar</a>
+  					<div class="animacion">
+  						<img src="pagina/images/img/carga.gif" alt="" height="30" width="30">
+  					</div>
   					<button data-toggle="collapse" data-target="#reserva">Reservar</button>
   				</div>
 				<!--fin boton plegable -->
@@ -364,12 +367,30 @@
 				});
 			</script>
 	<!-- //Dropdown-Menu-JavaScript -->
+	
+	<!-- <script>
+			$(document).ready(function(){ 
+				$('#reservar_boton').on('click',function(){
+					$('#reservar_content').toggle('slow');
+				});
+			});
+	</script> -->
+
+	<!--  -->
+	
+	<!--  -->
 
 	<!--  -->
 		<script>
 			$(document).ready(function(){ 
 				$('#reservar_boton').on('click',function(){
-					$('#reservar_content').toggle('slow');
+						$("#reservar_boton").hide();
+						$(".animacion").show();
+					setTimeout(function(){
+						$("#reservar_boton").show();
+						$(".animacion").hide();
+						$('#reservar_content').toggle('slow');
+					}, 1000);
 				});
 			});
 		</script>
